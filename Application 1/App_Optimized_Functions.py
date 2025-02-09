@@ -63,6 +63,8 @@ while True:
         except IndexError:
             print("There is no item with that number.\n")
             continue
+        except ValueError:
+            print("Please enter the Todo to mark as complete in format: Complete 10")
 
     elif user_action.startswith('Exit'):
         break
