@@ -2,7 +2,6 @@ Start reading 1 book
 Plan trip to Paris
 Complete till Day 40 Python
 Complete two labs of AWS
-Start stretching exercise
 Buy Umbrella
 Buy House
 Master Python!
