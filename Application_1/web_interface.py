@@ -5,7 +5,7 @@ todos = function_call.get_todos()
 def add_todo():
     todo = st.session_state["new_todo"]
     todos.append(todo)
-    function_call.write(todos)
+    function_call.write_todos(todos)
 
 
 
@@ -20,5 +20,3 @@ for todo in todos:
 
 st.text_input(label="", placeholder= "Enter a Todo...",
               on_change=add_todo, key= 'new_todo')
-
-st.session_state
