@@ -3,5 +3,3 @@ Plan trip to Paris
 Complete till Day 40 Python
 Complete two labs of AWS
 Buy Pen
-Add laundry
-
